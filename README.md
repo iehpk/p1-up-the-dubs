@@ -1,39 +1,28 @@
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
-Welcome,
-
-This is the Code Institute student template for Codeanywhere. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
-
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **May 11th, 2023**
-
-## Codeanywhere Reminders
-
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
-
-`python3 -m http.server`
-
-A button should appear to click: _Open Preview_ or _Open Browser_.
-
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
-
-`http_server`
-
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A button should appear to click: _Open Preview_ or _Open Browser_.
-
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
-
----
-
-Happy coding!
+<h1 class="display-3">Up The Dubs</h1>
+<p class="display-5">Your Friendly Guide to the Dublin City</p>
+<p>You can preview the project live on this -> <a href="https://iehpk.github.io/p1-up-the-dubs/" class="link-text">LINK</a></p>
+<hr>
+<h1>Introduction</h1>
+<p>This is my project for the first semester in Code Institute for HTML and CSS. It was built using only the pure concepts learned in the module.</p>
+<p>There was a long period ot time trying to think of a project, which only came to me about 8 days before deadline. Having been in Dublin for a while, I figured a real life relevant project would be ideal and thus an idea of a Dublin Visitor Website came to me</p>
+<h1>Tools Used</h1>
+<h1>Issues Faced</h1>
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>PROBLEM</th>
+            <th>SOLUTION</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Extra space above BODY within HTML container</td>
+            <td>
+                <p>Found the solution on QUORA.com when all my ideas of using PADDING and MARGIN did not solve the problem.</p>
+                <a href="https://www.quora.com/How-do-I-remove-the-space-at-the-top-of-a-webpage-with-CSS/answer/Rohit-Kumar-Shrivastava-5">Link to Solution</a>
+            </td>
+        </tr>
+    </tbody>
+</table>
