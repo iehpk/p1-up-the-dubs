@@ -1,18 +1,12 @@
+/*Specific CSS for the Introduction Page 
+* 
+Author: Henry Patrick Karugendo 
+Created: 14/07/23 
+Last Updated: 14/07/23 
+*
+*/
+
 body {
     background: white;
     color: black;
-}
-
-.header {
-    background-color: #21d576;
-    width: 100%;
-    height: 300px;
-    color: white;
-}
-
-.footer {
-    background-color: #fe8b24;
-    width: 100%;
-    height: 400px;
-    color: white;
 }

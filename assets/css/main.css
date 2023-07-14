@@ -1,4 +1,10 @@
-/* Global Styles */
+/* Global CSS Styles
+* 
+Author: Henry Patrick Karugendo 
+Created: 13/07/23 
+Last Updated: 14/07/23 
+* 
+*/
 * {
     /* This code has been taken from Stackoverflow to help eliminate the problematic top space in the HTML box 
         Link: https: //www.quora.com/How-do-I-remove-the-space-at-the-top-of-a-webpage-with-CSS/answer/Rohit-Kumar-Shrivastava-5
@@ -10,6 +16,13 @@
 
 html {
     font-family: 'Klee One', Verdana, cursive;
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    width: 100%;
+    height: 100%;
 }
 
 h1 {
@@ -20,50 +33,135 @@ p {
     font-size: 1.5rem;
 }
 
-/* Welcome Page Styles */
-body {
-    height: 100%;
-    width: 100%;
-    background: url('../images/bg_big.jpg');
+section,
+article {
+    padding: 20px;
+}
+
+/* HEADER CSS begins here */
+
+.header {
+    /*background-color: #21d576;*/
+    background: url('../images/header-bg.png');
     background-size: cover;
-    margin-top: 0;
-}
-
-#welcome-main {
+    width: 100%;
+    height: 300px;
     color: white;
-    text-align: center;
-    max-height: 100%;
-}
-
-#welcome-sub {
     position: relative;
-    width: 80%;
-    height: 40vh;
-    background: rgba(0, 0, 0, .5);
-    margin: 20vh auto -20vh;
-    padding: 2rem;
 }
 
-#welcome-content {
-    display: inline-block;
-    background: rgba(0, 0, 0, .5);
-    padding: 50px;
-    position: 200px auto 0;
+.header-text-div {
+    padding: 20px;
+    text-align: center;
 }
 
-#welcome-h1 {
+.header-h1-div>h1 {
+    font-size: 5rem;
+}
+
+.header-p-div>p {
     font-size: 3rem;
 }
 
-#welcome-p {
-    font-size: 2rem;
+.nav-div {
+    width: 100%;
+    height: 20%;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    background-color: #005522;
 }
 
-#welcome-b {
-    background: rgba(0, 0, 0, .5);
-    border: 1px white solid;
-    border-radius: 5px;
-    color: white;
-    font-size: 1.3rem;
-    padding: 5px 10px;
+.nav > ul > li {
+    display: inline-block;
+    list-style: none;
+    margin-right: 50px;
 }
+
+.nav > ul > li > a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+}
+
+.nav > ul > li > a:hover {
+    color: #fe8b24;
+    border-bottom: 1px solid #fe8b24;
+}
+
+.nav > ul > li >a.active {
+    color: #fe8b24;
+    border-bottom: 1px solid white;
+}
+
+.nav > ul > li > a:visited {
+    font-weight: normal;
+}
+
+/* HEADER CSS ends here */
+
+/* FOOTER CSS begins Here */
+
+.footer {
+    /*background-color: #fe8b24;*/
+    background: url('../images/footer-bg.png');
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+    color: white;
+    padding: 20px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.footer-container-top {
+    height: 80%;
+    position: relative;
+}
+
+.footer-container-bottom {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.add-line {
+    font-style: italic;
+    display: block;
+}
+
+.footer-location {
+    display: inline-block;
+    vertical-align: top;
+    height: 100%;
+}
+
+.location-add-div {
+    width: 30%;
+    position: relative;
+}
+
+.location-map-div {
+    width: 50%;
+    position: absolute;
+    right: 0;
+}
+
+.g-map {
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+.add-phone {
+    position: absolute;
+    bottom: 0;
+}
+
+.p-copy-text {
+    font-size: 1.2rem;
+    font-weight: lighter;
+}
+
+/* Footer CSS ends here */
