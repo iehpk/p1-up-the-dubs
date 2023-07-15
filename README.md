@@ -40,7 +40,7 @@
         <tr>
             <td>In footer, address div would have space above it when turned to inline-block</td>
             <td>
-                <p>Solution found on StackOverflow.com, caused by BASELINE being the fefault VERTICAL-ALIGN. Had to change it to TOP</p>
+                <p>Solution found on StackOverflow.com, caused by BASELINE being the default VERTICAL-ALIGN. Had to change it to TOP</p>
                 <a href="https://stackoverflow.com/posts/15561080/revisions" target="_blank">Link to Solution</a>
             </td>
         </tr>
