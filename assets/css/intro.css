@@ -2,7 +2,7 @@
 * 
 Author: Henry Patrick Karugendo 
 Created: 14/07/23 
-Last Updated: 14/07/23 
+Last Updated: 16/07/23 
 *
 */
 
@@ -10,3 +10,38 @@ body {
     background: white;
     color: black;
 }
+
+.intro-section-div {
+    background-image: url('../images/intro-bg.jpg');
+    background-size: cover;
+    background-position: left;
+    position: relative;
+    width: 100%;
+    height: 800px;
+}
+
+.section-div, .section-div > div {
+    padding: 0px;
+}
+
+#heading-section {
+    position: absolute;
+    display: inline-block;
+    width: 40%;
+    right: 50px;
+    top: 100px;
+}
+
+#text-section {
+    position: absolute;
+    display: inline-block;
+    width: 40%;
+    right: 50px;
+    bottom: 50px;
+}
+
+.gallery-section-div {
+    height: 300px;
+    background-color: azure;
+}
+

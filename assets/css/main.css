@@ -2,7 +2,7 @@
 * 
 Author: Henry Patrick Karugendo 
 Created: 13/07/23 
-Last Updated: 14/07/23 
+Last Updated: 16/07/23 
 * 
 */
 * {
@@ -42,8 +42,9 @@ article {
 
 .header {
     /*background-color: #21d576;*/
-    background: url('../images/header-bg.png');
+    background: url('../images/header-bg.jpg');
     background-size: cover;
+    background-position: center;
     width: 100%;
     height: 300px;
     color: white;
@@ -51,21 +52,41 @@ article {
 }
 
 .header-text-div {
-    padding: 20px;
+    padding: 5px;
     text-align: center;
+    position: relative;
+}
+
+.header-h1-div {
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    max-width: 400px;
+}
+
+.header-p-div {
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    top: 50;
+    bottom: -150px;
+    max-width: 400px;
 }
 
 .header-h1-div>h1 {
-    font-size: 5rem;
+    text-transform: uppercase;
+    font-size: 70px;
+    padding-left: 50px;
 }
 
 .header-p-div>p {
-    font-size: 3rem;
+    font-size: 30px;
+    padding-right: 50px;
 }
 
 .nav-div {
     width: 100%;
-    height: 20%;
+    height: 50px;
     position: absolute;
     bottom: 0;
     text-align: center;
@@ -81,19 +102,19 @@ article {
 .nav > ul > li > a {
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 2rem;
+    font-size: 25px;
     font-weight: bold;
     color: white;
 }
 
 .nav > ul > li > a:hover {
-    color: #fe8b24;
-    border-bottom: 1px solid #fe8b24;
+    color: white;
+    border-bottom: 1px solid white;
 }
 
 .nav > ul > li >a.active {
     color: #fe8b24;
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid #fe8b24;
 }
 
 .nav > ul > li > a:visited {
@@ -106,7 +127,7 @@ article {
 
 .footer {
     /*background-color: #fe8b24;*/
-    background: url('../images/footer-bg.png');
+    background: url('../images/footer-bg.jpg');
     background-size: cover;
     width: 100%;
     height: 300px;
@@ -165,3 +186,50 @@ article {
 }
 
 /* Footer CSS ends here */
+
+/*Smaller Devices Styling */
+@media (max-width: 1400px) {
+
+    .header {
+            /*background-color: #21d576;*/
+            background: url('../images/header-bg-sm.jpg');
+            background-size: cover;
+            width: 100%;
+            height: 300px;
+            color: white;
+            position: relative;
+        }
+
+        .header-p-div {
+            width: 200px;
+        }
+    
+        .header-h1-div>h1 {
+            font-size: 20px;
+        }
+    
+        .header-p-div>p {
+            font-size: 10px;
+        }
+
+        .nav-div {
+            height: 100px;
+        }
+
+    .footer {
+            /*background-color: #fe8b24;*/
+            background: url('../images/footer-bg-sm.jpg');
+            background-size: cover;
+            width: 100%;
+            height: 150px;
+            color: white;
+            padding: 5px;
+            font-size: 0.6rem;
+            font-weight: bold;
+        }
+
+        .footer-container-bottom {
+            padding-top: 5px;
+            text-align: center;
+        }
+}

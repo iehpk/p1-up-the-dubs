@@ -2,6 +2,13 @@
 * 
 Author: Henry Patrick Karugendo 
 Created: 14/07/23 
-Last Updated: 14/07/23 
+Last Updated: 16/07/23 
 *
 */
+body {
+    font-family: 'Klee One', Verdana, cursive;
+}
+
+.contact-div {
+    padding: 2.5% 10%;
+}

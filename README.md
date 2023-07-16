@@ -17,6 +17,7 @@
     <li>Codeanywhere Online IDE</li>
     <li>Github</li>
     <li>Git</li>
+    <li>Bootstrap</li>
     <li>Adobe Lightroom Classic</li>
     <li>Adobe Photoshop</li>
     <li>Sony &Alpha;6000</li>
@@ -42,6 +43,13 @@
             <td>
                 <p>Solution found on StackOverflow.com, caused by BASELINE being the default VERTICAL-ALIGN. Had to change it to TOP</p>
                 <a href="https://stackoverflow.com/posts/15561080/revisions" target="_blank">Link to Solution</a>
+            </td>
+        </tr>
+        <tr>
+            <td>Could not get the contact form layout to meet my idea</td>
+            <td>
+                <p>Used the Twitter Bootstrap Framework to help with built-in styles.</p>
+                <a href="https://getbootstrap.com/" target="_blank">Link to Bootstrap.</a>
             </td>
         </tr>
     </tbody>
