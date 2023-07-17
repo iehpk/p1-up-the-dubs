@@ -2,6 +2,12 @@
 *
 Author: Henry Patrick Karugendo 
 Created: 14/07/23 
-Last Updated: 14/07/23 
+Last Updated: 17/07/23 
 *
 */
+
+#attract-heading-div {
+    background-image: url('../images/layout/attract-bg-sm.jpg');
+    background-size: cover;
+    background-position: bottom;
+}

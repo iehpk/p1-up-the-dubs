@@ -13,8 +13,10 @@
     <!-- End of Metas -->
     <!-- Fonts -->
     <!-- These fonts have been taken from the Google Fonts API -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    <!-- Boostrap did not do what I needed - removed - 
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Klee+One&family=Shadows+Into+Light&display=swap"
@@ -28,7 +30,7 @@
     <!--
         Author: Henry Patrick Karugendo
         Created: 14/07/23
-        Last Updated: 14/07/23
+        Last Updated: 17/07/23
         *
         All images on this site were taken by Henry Patrick Karugendo - The Author of this website, 
         on a Sony a6000 within two days of walking around Dublin.
@@ -41,56 +43,65 @@
     <header class="header">
         <div class="header-text-div">
             <div class="header-h1-div">
-                <h1>Up The Dubs</h1>
+                <img src="assets/images/layout/icon.png" alt="Site Logo Image" aria-label="Website Logo Image"
+                    class="ing logo-img">
             </div>
             <div class="header-p-div">
                 <p>Your friendly guide to Dublin city </p>
             </div>
         </div>
-        <div class="nav-div">
-            <nav class="nav">
-                <ul>
-                    <li class="nav-link"><a href="intro.html">Introduction</a></li>
-                    <li class="nav-link"><a href="trans.html">Transportation</a></li>
-                    <li class="nav-link"><a href="attract.html">Attractions</a></li>
-                    <li class="nav-link"><a href="contact.html" class="active">Contact Us</a></li>
-                </ul>
-            </nav>
-        </div>
     </header>
-    <div class="container contact-div">
-        <h1 class="cotact-h1">Contact Us</h1>
-        <p class="contact-p">If you have any questions or tips, please do not hesitate to contact us using the form below.</p>
-        <p class="contact-p">24hr attention to your message guaranteed!</p>
-        <form action="result.html" method="get" class="form">
-            <div class="fieldset">
-                <div class="form-group">
-                    <label for="name" class="form-label">Full Name:</label>
-                    <input type="text" id="name" name="name" placeholder="Enter Full Name" minlength="2" required class="form-control">
-                </div>
-                <div class="form-group">
-                    <label for="email" class="form-label">Email:</label>
-                    <input type="email" id="email" name="email" placeholder="Enter Email" required class="form-control">
-                </div>
-            </div>
-            <div class="fieldset">
-                <div class="form-group">
-                    <label for="form-message" class="form-label">Your Message: </label>
-                    <textarea name="form-message" id="form-message" rows="10" class="form-control"
-                        placeholder="Enter your query or message here..."></textarea>
-                </div>
-            </div>
-            <input type="submit" value="Send Message" class="form-submit">
-        </form>
+    <div class="nav-div">
+        <nav class="nav">
+            <ul>
+                <li class="nav-link"><a href="intro.html">Introduction</a></li>
+                <li class="nav-link"><a href="trans.html">Transportation</a></li>
+                <li class="nav-link"><a href="attract.html">Attractions</a></li>
+                <li class="nav-link"><a href="contact.html" class="active">Contact Us</a></li>
+            </ul>
+        </nav>
     </div>
+    <article class="article-main" id="contact-article">
+        <div class="article-heading-div" id="contact-heading-div">
+            <div class="article-heading" id="contact-heading">
+                <h1 class="article-heading-h1" id="contact-heading-h1">Contact Us</h1>
+                <p class="article-heading-p" id="contact-heading-p">If you have any questions or tips, please do not hesitate to contact us using the form
+                    below.</p>
+                <p class="article-heading-p" id="contact-heading-pa">24hr attention to your message guaranteed!</p>
+            </div>
+        </div>
+        <div class="article-content-div" id="contact-content-div">
+            <form action="result.html" method="get" class="form">
+                <div class="fieldset">
+                    <div class="form-group">
+                        <label for="name" class="form-label form-element">Full Name:</label>
+                        <input type="text" id="name" name="name" placeholder="Enter Full Name" minlength="2" required
+                            class="form-control form-element">
+                    </div>
+                    <div class="form-group">
+                        <label for="email" class="form-label form-element">Email:</label>
+                        <input type="email" id="email" name="email" placeholder="Enter Email" required class="form-control form-element">
+                    </div>
+                </div>
+                <div class="fieldset">
+                    <div class="form-group">
+                        <label for="form-message" class="form-label form-element">Your Message: </label>
+                        <textarea name="form-message" id="form-message" rows="10" class="form-control form-element"
+                            placeholder="Enter your query or message here..." required></textarea>
+                    </div>
+                </div>
+                <input type="submit" value="Send Message" class="form-submit form-element">
+            </form>
+        </div>
+    </article>
     <footer class="footer">
         <div class="footer-container-top">
             <div class="footer-location location-add-div">
-                <span class="add-line">Up The Dubs Office</span>
-                <span class="add-line">101 O'Connell St</span>
-                <span class="add-line">Dublin 1</span>
-                <span class="add-line">D01 D1D1</span>
-                <span class="add-line add-phone">Phone: +353 1 234 5678</span>
+                <span class="footer-text add-line">Up The Dubs Office</span>
+                <span class="footer-text add-line">101 O'Connell St</span>
+                <span class="footer-text add-line">Dublin 1</span>
+                <span class="footer-text add-line">D01 D1D1</span>
+                <span class="footer-text add-line add-phone">Phone: +353 1 234 5678</span>
             </div>
             <div class="footer-location location-map-div">
                 <iframe
@@ -100,7 +111,7 @@
         </div>
         <div class="footer-container-bottom">
             <div class="p-copy-text">
-                <p>Henry Patrick Karugendo &copy;2023</p>
+                <p class="footer-text">Henry Patrick Karugendo &copy;2023</p>
             </div>
         </div>
     </footer>

@@ -2,9 +2,14 @@
 * 
 Author: Henry Patrick Karugendo 
 Created: 15/07/23 
-Last Updated: 15/07/23 
+Last Updated: 17/07/23 
 *
 */
 .result-div {
     text-align: center;
+    min-height: 600px;
+}
+
+h1 {
+    margin: 50px 10px 50px;
 }
