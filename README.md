@@ -55,6 +55,8 @@
 <p>Fonts were changed three times as I tested for both personal preference and visual quality.</p>
 <p>After a few tests, I finally settled on the <em>Metrophobic</em> font from <a href="https://fonts.google.com/" target="_blank">Google Fonts</a>.</p>
 <p>Font-sizes were based off of personal preference per resolution.</p>
+<h2>Validation</h2>
+<p>Made use of W3C's <a href="https://validator.w3.org/" target="_blank">HTML</a> and <a href="https://jigsaw.w3.org/css-validator/" target="_blank">CSS</a> Validators to validate my HTML and CSS code.</p>
 <h2>Challenges Faced</h2>
 <p>Got boggled down by project choices as I kept over-thinking the project. Due to this, I had little time left to do the actual project.</p>
 <p>Positioning was a big challenge, practical-wise. Kept making use of online solutions like StackOverflow, etc...</p>

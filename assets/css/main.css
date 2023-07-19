@@ -30,7 +30,15 @@ body {
 }
 
 h1 {
-    font-size: 60px;
+    font-size: 70px;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+h3 {
+    font-size: 40px;
 }
 
 p {
@@ -72,8 +80,8 @@ p {
 .header-p-div {
     display: inline-block;
     position: absolute;
-    right: 0;
-    top: 50;
+    right: 0px;
+    top: 50px;
     bottom: -150px;
     max-width: 400px;
 }
@@ -144,6 +152,11 @@ p {
     padding: 50px 0 50px;
 }
 
+.disabled {
+    pointer-events: none;
+    cursor: default;
+}
+
 .article-heading-p {
     font-size: 30px;
     margin: 0;
@@ -164,7 +177,7 @@ p {
     color: #005522;
 }
 
-h1 {
+h2 {
     font-size: 40px;
     padding-left: 10px;
     padding-right: 10px;
@@ -175,7 +188,7 @@ small {
     padding-left: 20px;
 }
 
-h2 {
+h3 {
     font-size: 30px;
 }
 
@@ -376,6 +389,10 @@ li {
     }
 
     h1 {
+        font-size: 40px;
+    }
+
+    h2 {
         font-size: 30px;
     }
 
@@ -383,7 +400,7 @@ li {
         font-size: 16px;
     }
 
-    h2 {
+    h3 {
         font-size: 20px;
     }
 
@@ -463,6 +480,10 @@ li {
     }
 
     h1 {
+        font-size: 30px;
+    }
+
+    h2 {
         font-size: 25px;
     }
 
@@ -470,7 +491,7 @@ li {
         font-size: 14px;
     }
 
-    h2 {
+    h3 {
         font-size: 18px;
     }
 
@@ -494,7 +515,7 @@ li {
 @media (max-width: 600px) {
     .logo-img {
         width: 100px;
-        margin: 10 20px;
+        margin: 10px 20px;
     }
 
     .header-logo-div {
@@ -538,6 +559,10 @@ li {
     }
 
     h1 {
+        font-size: 30px;
+    }
+
+    h2 {
         font-size: 20px;
     }
 
@@ -545,7 +570,7 @@ li {
         font-size: 10px;
     }
 
-    h2 {
+    h3 {
         font-size: 15px;
     }
 
@@ -589,6 +614,10 @@ li {
     }
 
     h1 {
+        font-size: 20px;
+    }
+
+    h2 {
         font-size: 16px;
     }
 
@@ -641,11 +670,15 @@ li {
         font-size: 18px;
     }
 
+    h2 {
+        font-size: 15px;
+    }
+
     small {
         display: none;
     }
 
-    h2 {
+    h3 {
         font-size: 12px;
     }
 

@@ -14,14 +14,14 @@ Last Updated: 19/07/23
 
 .section-no-div {
     display: inline-block;
-    width: 0;
-    height: 0;
+    width: 0px;
+    height: 0px;
     border-top: 20px solid transparent;
     border-left: 40px solid #019a48;
     border-bottom: 20px solid transparent;
     position: sticky;
-    top: 0;
-    left: 0;
+    top: 0px;
+    left: 0px;
 }
 
 .section-heading-div {
@@ -61,8 +61,8 @@ Last Updated: 19/07/23
     background-color: #019a48;
     display: inline;
     position: sticky;
-    top: 0;
-    left: 0;
+    top: 0px;
+    left: 0px;
     width: 100%;
 }
 
