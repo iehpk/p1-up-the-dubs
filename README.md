@@ -1,5 +1,4 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
-
+<a href="https://ibb.co/ZcBLRyG"><img src="https://i.ibb.co/vL3wC2V/Screenshot-2023-07-19-190354.png" alt="Screenshot-2023-07-19-190354" border="0" style="width: 70%; height: auto;"></a>
 <h1 class="display-3">UP THE DUBS</h1>
 <p class="display-5">Your Friendly Guide to the Dublin City</p>
 <p>You can preview the project live on this -> <a href="https://iehpk.github.io/p1-up-the-dubs/" class="link-text">LINK</a></p>
