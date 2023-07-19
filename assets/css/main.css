@@ -2,7 +2,7 @@
 * 
 Author: Henry Patrick Karugendo 
 Created: 13/07/23 
-Last Updated: 17/07/23 
+Last Updated: 18/07/23 
 * 
 */
 * {
@@ -64,7 +64,7 @@ article {
     position: relative;
 }
 
-.header-h1-div {
+.header-logo-div {
     display: inline-block;
     position: absolute;
     left: 0;
@@ -80,22 +80,15 @@ article {
     max-width: 400px;
 }
 
-.header-h1-div>h1 {
-    text-transform: uppercase;
-    font-size: 70px;
-    padding-left: 50px;
-}
-
 .header-p-div>p {
     font-size: 30px;
-    padding-right: 50px;
 }
 
 .nav-div {
     width: 100%;
     text-align: center;
-    background-color: #005522;
-    min-height: 70px;
+    background-color: #012512;
+    padding: 5px;
 }
 
 .nav>ul>li {
@@ -130,24 +123,25 @@ article {
 
 /* Content Styles Start Here */
 .article-main {
-    padding: 0px;
-    min-height: 1000px;
+    padding: 0px 0px 350px;
 }
 
 .article-heading-div {
     background-image: url('../images/layout/intro-bg-sm.jpg');
     background-size: cover;
     background-position: center;
-    height: 40vh;
+    height: 600px;
     position: relative;
 }
 
 .article-heading {
     display: inline-block;
     width: 100%;
+    min-height: 40%;
     position: absolute;
-    bottom: 0px;
-    background-color: rgba(15, 176, 90, .7);
+    top: 30%;
+    bottom: 30%;
+    background: rgba(1, 37, 18, .8);
     color: white;
     padding: 5px 40px 15px 10px;
     text-align: center;
@@ -225,46 +219,235 @@ article {
 .footer-text {
     font-style: italic;
     font-size: 1.2rem;
-    font-weight: bold;=
+    font-weight: bold;
+}
+
+.footer-text-c {
+    font-weight: lighter;
 }
 
 /* Footer CSS ends here */
 
 /*Smaller Devices Styling */
-@media (max-width: 1400px) {
+/* Styling for Devices smaller than 1600px wide */
 
-    .header {
-        /*background-color: #21d576;*/
-        background: url('../images/header-bg-sm.jpg');
-        background-size: cover;
-        width: 100%;
-        height: 300px;
-        color: white;
-        position: relative;
+@media (max-width: 1600px) {
+    #welcome-heading {
+        height: 250px;
     }
 
-    .header-p-div {
-        width: 200px;
+    #welcome-content {
+        top: 380px;
     }
 
-    .header-h1-div>h1 {
+    #welcome-h1 {
+        font-size: 40px;
+    }
+
+    #welcome-p {
         font-size: 20px;
     }
 
-    .header-p-div>p {
-        font-size: 10px;
+    #welcome-b {
+        font-size: 20px;
+    }
+}
+
+/* Styling for Devices smaller than 1300px wide */
+@media (max-width: 1300px) {
+    .header {
+        background: url('../images/layout/header-bg-sm.jpg');
+        background-size: cover;
+        background-position: left;
+        height: 150px;
     }
 
-    .nav-div {
-        height: 100px;
+    .logo-img {
+        margin: 0 auto;
+        width: 70px;
+        height: auto;
+    }
+
+    .header-text-div {
+        position: relative;
+    }
+
+    .header-logo-div {
+        width: 80%;
+        top: 10px;
+        left: auto;
+        right: 0px;
+        margin-bottom: 0;
+    }
+
+    .header-p-div {
+        width: 80%;
+        top: 105px;
+        right: 0;
+        margin-top: 0;
+    }
+
+    .header-p-div>p {
+        font-size: 16px;
+        padding-right: 50px;
+    }
+
+    .nav>ul>li {
+        margin-right: 25px;
+    }
+
+    .nav>ul>li>a {
+        font-size: 20px;
+    }
+
+    section,
+    article {
+        padding: 10px;
+    }
+
+    .article-main {
+        padding: 0px 0px 200px;
+        min-height: 600px;
+    }
+
+    .article-heading-div {
+        height: 300px;
+    }
+
+    .article-content-div {
+        padding: 25px 8% 25px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    p {
+        font-size: 16px;
     }
 
     .footer {
-        /*background-color: #fe8b24;*/
-        background: url('../images/footer-bg-sm.jpg');
+        background: url('../images/layout/footer-bg-sm.jpg');
         background-size: cover;
-        width: 100%;
+        background-position: right;
         height: 150px;
+        font-size: 12px;
+    }
+
+    .footer-container-top {
+        height: 80%;
+        position: relative;
+    }
+
+    .footer-container-bottom {
+        padding-top: 20px;
+        text-align: center;
+    }
+
+    .add-line {
+        display: block;
+    }
+
+    .footer-location {
+        display: inline-block;
+        vertical-align: top;
+        height: 100%;
+    }
+
+    .location-add-div {
+        width: 30%;
+        position: relative;
+    }
+
+    .location-map-div {
+        width: 40%;
+        position: absolute;
+        left: 31%;
+    }
+
+    .g-map {
+        width: 100%;
+        height: 100%;
+        border: 0px;
+    }
+
+    .add-phone {
+        position: absolute;
+        bottom: 0;
+    }
+
+    .footer-text {
+        font-style: italic;
+        font-size: 12px;
+    }
+}
+
+/* Styling for devices smaller than 960px wide */
+@media (max-width: 960px) {
+    body {
+        position: relative;
+    }
+
+    .footer {
+        position: fixed;
+        bottom: 0;
+    }
+}
+
+/* Styling for devices smaller than 500px wide */
+
+@media (max-width: 600px) {
+    .logo-img {
+        width: 100px;
+        margin: 10 20px;
+    }
+
+    .header-logo-div {
+        max-width: 60%;
+    }
+
+    .header-p-div {
+        display: none;
+    }
+
+    .nav>ul>li {
+        margin-right: 10px;
+    }
+
+    .nav>ul>li>a {
+        font-size: 16px;
+    }
+
+        .article-heading-div {
+            background: none;
+            height: auto;
+            position: unset;
+        }
+    
+        .article-heading {
+            display: inline-block;
+            width: 100%;
+            position: unset;
+            background: rgba(1, 37, 18, .8);
+            color: white;
+            padding: 5px 40px 15px 10px;
+            text-align: center;
+        }
+
+    .article-content-div {
+        padding: 12px 4% 12px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    h2 {
+        font-size: 16px;
+    }
+
+    p {
+        font-size: 13px;
     }
 
     .footer-container-bottom {
@@ -272,4 +455,48 @@ article {
         text-align: center;
     }
 
+    .location-add-div {
+        width: 50%;
+    }
+
+    .location-map-div {
+        display: none;
+    }
+}
+
+/* Styling for devices smaller than 400px wide */
+
+@media (max-width: 500px) {
+    .logo-img {
+        width: 70px;
+        margin: 30px 20px;
+    }
+
+    .header-logo-div {
+        max-width: 40%;
+    }
+
+    .article-content-div {
+        padding: 6px 2% 6px;
+    }
+
+    h1 {
+        font-size: 16px;
+    }
+
+    p {
+        font-size: 12px;
+    }
+
+    .footer {
+        background-position: left;
+    }
+
+    .footer-container-bottom {
+        text-align: right;
+    }
+
+    .location-add-div {
+        width: 80%;
+    }
 }

@@ -2,7 +2,7 @@
 * 
 Author: Henry Patrick Karugendo 
 Created: 12/07/23 
-Last Updated: 14/07/23 
+Last Updated: 18/07/23 
 *
 */
 body {
@@ -39,9 +39,9 @@ body {
     display: inline-block;
     padding: 50px;
     position: absolute;
-    width: 20%;
-    top: 450px;
-    left: 40%;
+    top: 420px;
+    width: 30%;
+    left: 35%;
 }
 
 #welcome-h1 {
@@ -59,6 +59,72 @@ body {
     border-radius: 10px;
     color: white;
     font-size: 40px;
-    padding: 5px 20px 10px;
+    padding: 20px 60px 30px;
     text-decoration: none;
+}
+
+#welcome-b:hover {
+    background: white;
+    color: black;
+    font-weight: bold;
+    border: 2px solid black;
+}
+
+/* Styling for Devices smaller than 1600px wide */
+
+@media (max-width: 1600px) {
+    #welcome-heading {
+        height: 250px;
+    }
+
+    #welcome-content {
+        top: 380px;
+    }
+
+    #welcome-h1 {
+        font-size: 40px;
+    }
+
+    #welcome-p {
+        font-size: 20px;
+    }
+
+    #welcome-b {
+        font-size: 20px;
+    }
+}
+
+/* Styling for Devices smaller than 960px wide */
+
+@media (max-width: 960px) {
+    body {
+        background: url('../images/layout/welcome-bg-sm.jpg');
+        background-size: cover;
+        background-position: center;
+    }
+
+    #welcome-heading {
+        left: 15%;
+        width: 80%;
+        left: 10%;
+        height: 200px;
+    }
+
+    #welcome-content {
+        top: 330px;
+        width: 60%;
+        left: 20%;
+    }
+
+    #welcome-h1 {
+        font-size: 30px;
+    }
+
+    #welcome-p {
+        font-size: 16px;
+    }
+
+    #welcome-b {
+        font-size: 16px;
+    }
 }

@@ -2,12 +2,84 @@
 *
 Author: Henry Patrick Karugendo 
 Created: 14/07/23 
-Last Updated: 17/07/23 
+Last Updated: 18/07/23 
 *
 */
 
 #attract-heading-div {
-    background-image: url('../images/layout/attract-bg-sm.jpg');
+    background-image: url('../images/layout/intro2.jpg');
     background-size: cover;
     background-position: bottom;
+}
+
+.section-no-div {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-top: 23px solid transparent;
+    border-left: 46px solid white;
+    border-bottom: 23px solid transparent;
+}
+
+.section-heading-div {
+    background-color: #ff7903;
+    color: white;
+    padding-bottom: 10px;
+}
+
+.section-heading {
+    display: inline;
+    margin-left: 10px;
+}
+
+.section-text-div {
+    background-color: #f5fffa;
+}
+
+.section-text {
+    font-size: 24px;
+    margin: 16px;
+}
+
+.section-text > b {
+    font-weight: bold;
+}
+
+.trans-list {
+    margin-left: 20px;
+}
+
+.section-map {
+    width: 100%;
+    border: none;
+}
+
+.section-admission-div {
+    background-color: #ffca9b;
+}
+
+.site-link {
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+.tickets-link {
+    display: block;
+    font-size: 20px;
+    padding: 5px 10px;
+    text-align: center;
+    background-color: #ff7903;
+    border: 1px solid #ff7903;
+    text-decoration: none;
+    color: white;
+}
+
+@media (max-width: 600px) {
+    #attract-heading-div {
+        background: none;
+        height: 100px;
+        position: unset;
+    }
 }

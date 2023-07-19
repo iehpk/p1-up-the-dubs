@@ -2,12 +2,20 @@
 *
 Author: Henry Patrick Karugendo 
 Created: 14/07/23 
-Last Updated: 17/07/23 
+Last Updated: 18/07/23 
 *
 */
 
 #trans-heading-div {
-    background-image: url('../images/layout/trans-bg-sm.jpg');
+    background-image: url('../images/layout/trans4.jpg');
     background-size: cover;
-    background-position: bottom;
+    background-position: center;
+}
+
+@media (max-width: 600px) {
+    #trans-heading-div {
+        background: none;
+        height: 100px;
+        position: unset;
+    }
 }
