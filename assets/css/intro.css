@@ -2,7 +2,7 @@
 * 
 Author: Henry Patrick Karugendo 
 Created: 14/07/23 
-Last Updated: 18/07/23 
+Last Updated: 19/07/23 
 *
 */
 
@@ -17,11 +17,34 @@ body {
     background-position: center;
 }
 
-#text-section {}
-
 .gallery-section-div {
     height: 300px;
     background-color: azure;
+}
+
+picture,
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.article-content-p {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 960px) {
+
+    picture,
+    img {
+        float: left;
+        margin: 10px;
+    }
+
+    .article-content-p {
+        font-size: 18px;
+        text-align: justify;
+    }
 }
 
 @media (max-width: 600px) {
@@ -29,5 +52,10 @@ body {
         background: none;
         height: 100px;
         position: unset;
+    }
+
+    .article-content-p {
+        font-size: 14px;
+        text-align: justify;
     }
 }

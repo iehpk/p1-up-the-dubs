@@ -2,20 +2,127 @@
 *
 Author: Henry Patrick Karugendo 
 Created: 14/07/23 
-Last Updated: 18/07/23 
+Last Updated: 19/07/23 
 *
 */
 
 #trans-heading-div {
-    background-image: url('../images/layout/trans4.jpg');
+    background-image: url('../images/layout/intro3.jpg');
     background-size: cover;
     background-position: center;
 }
 
+.section-no-div {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-left: 40px solid #019a48;
+    border-bottom: 20px solid transparent;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+.section-heading-div {
+    color: white;
+    height: 400px;
+    display: flex;
+    background-size: cover;
+    background-position: center;
+}
+
+#leap-heading-div {
+    background-image: url('../images/layout/leap2.jpg');
+}
+
+#luas-heading-div {
+    background-image: url('../images/layout/trans3.jpg');
+    background-position: bottom;
+}
+
+#dbus-heading-div {
+    background-image: url('../images/layout/trans4.jpg');
+}
+
+#dbike-heading-div {
+    background-image: url('../images/layout/trans1.jpg');
+}
+
+#dart-heading-div {
+    background-image: url('../images/layout/trans5.jpg');
+}
+
+#other-heading-div {
+    background-image: url('../images/layout/free2.jpg');
+}
+
+.section-heading {
+    background-color: #019a48;
+    display: inline;
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.section-text-div {
+    background-color: #f5fffa;
+}
+
+.section-text>b {
+    font-weight: bold;
+}
+
+.trans-list {
+    margin-left: 40px;
+}
+
+.section-map {
+    width: 100%;
+    border: none;
+}
+
+.site-link {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+@media (max-width: 1300px) {
+    .section-no-div {
+        border-top: 20px solid transparent;
+        border-left: 40px solid #019a48;
+        border-bottom: 20px solid transparent;
+    }
+}
+
+@media (max-width: 960px) {
+    .section-no-div {
+        border-top: 12px solid transparent;
+        border-left: 22px solid #019a48;
+        border-bottom: 12px solid transparent;
+    }
+
+    .section-heading-div {
+        height: 300px;
+    }
+}
+
 @media (max-width: 600px) {
+    .section-no-div {
+        border-top: 8px solid transparent;
+        border-left: 16px solid #019a48;
+        border-bottom: 8px solid transparent;
+    }
+
     #trans-heading-div {
         background: none;
         height: 100px;
         position: unset;
+    }
+
+    .section-heading-div {
+        height: 200px;
     }
 }

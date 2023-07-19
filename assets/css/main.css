@@ -2,9 +2,13 @@
 * 
 Author: Henry Patrick Karugendo 
 Created: 13/07/23 
-Last Updated: 18/07/23 
+Last Updated: 19/07/23 
 * 
 */
+
+/* Import Google Font 'Metrophobic' */
+@import url('https://fonts.googleapis.com/css2?family=Metrophobic&display=swap');
+
 * {
     /* This code has been taken from Stackoverflow to help eliminate the problematic top space in the HTML box 
         Link: https: //www.quora.com/How-do-I-remove-the-space-at-the-top-of-a-webpage-with-CSS/answer/Rohit-Kumar-Shrivastava-5
@@ -15,7 +19,7 @@ Last Updated: 18/07/23
 }
 
 html {
-    font-family: 'Klee One', Verdana, cursive;
+    font-family: 'Metrophobic', Verdana, sans-serif;
     width: 100%;
     height: 100%;
 }
@@ -31,12 +35,6 @@ h1 {
 
 p {
     font-size: 30px;
-    margin-bottom: 20px;
-}
-
-section,
-article {
-    padding: 20px;
 }
 
 /* HEADER CSS begins here */
@@ -137,29 +135,72 @@ article {
 .article-heading {
     display: inline-block;
     width: 100%;
-    min-height: 40%;
     position: absolute;
     top: 30%;
     bottom: 30%;
     background: rgba(1, 37, 18, .8);
     color: white;
-    padding: 5px 40px 15px 10px;
     text-align: center;
+    padding: 50px 0 50px;
 }
 
 .article-heading-p {
-    font-weight: bold;
+    font-size: 30px;
+    margin: 0;
+}
+
+.article-section {
+    border: 1px solid #01b957;
+    background-color: #f5fffa;
+    margin-top: 10px;
 }
 
 .article-content-div {
     padding: 50px 15% 50px;
     color: #005522;
-    font-weight: bold;
 }
 
 .article-content-p {
     color: #005522;
-    font-weight: bold;
+}
+
+h1 {
+    font-size: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+small {
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+p,
+li {
+    font-size: 20px;
+}
+
+p {
+    padding: 10px;
+}
+
+ol,
+ul {
+    padding-bottom: 20px;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+.nav>ul,
+.nav>ol {
+    padding: 0;
+    margin-bottom: 0;
 }
 
 /* FOOTER CSS begins Here */
@@ -227,6 +268,19 @@ article {
 }
 
 /* Footer CSS ends here */
+.to-top-div {
+    text-align: right;
+    position: sticky;
+    bottom: 0;
+    z-index: 2;
+}
+
+.to-top-text {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #012512;
+}
 
 /*Smaller Devices Styling */
 /* Styling for Devices smaller than 1600px wide */
@@ -300,9 +354,12 @@ article {
         font-size: 20px;
     }
 
-    section,
-    article {
-        padding: 10px;
+    .article-heading {
+        padding: 15px 0 15px;
+    }
+
+    .article-heading-p {
+        font-size: 18px;
     }
 
     .article-main {
@@ -322,7 +379,16 @@ article {
         font-size: 30px;
     }
 
-    p {
+    small {
+        font-size: 16px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    p,
+    li {
         font-size: 16px;
     }
 
@@ -380,6 +446,10 @@ article {
         font-style: italic;
         font-size: 12px;
     }
+
+    .to-top-text {
+        font-size: 16px;
+    }
 }
 
 /* Styling for devices smaller than 960px wide */
@@ -388,13 +458,38 @@ article {
         position: relative;
     }
 
+    .article-heading-p {
+        font-size: 16px;
+    }
+
+    h1 {
+        font-size: 25px;
+    }
+
+    small {
+        font-size: 14px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    p,
+    li {
+        font-size: 14px;
+    }
+
     .footer {
         position: fixed;
         bottom: 0;
     }
+
+    .to-top-text {
+        font-size: 14px;
+    }
 }
 
-/* Styling for devices smaller than 500px wide */
+/* Styling for devices smaller than 600px wide */
 
 @media (max-width: 600px) {
     .logo-img {
@@ -418,21 +513,25 @@ article {
         font-size: 16px;
     }
 
-        .article-heading-div {
-            background: none;
-            height: auto;
-            position: unset;
-        }
-    
-        .article-heading {
-            display: inline-block;
-            width: 100%;
-            position: unset;
-            background: rgba(1, 37, 18, .8);
-            color: white;
-            padding: 5px 40px 15px 10px;
-            text-align: center;
-        }
+    .article-heading-div {
+        background: none;
+        height: auto;
+        position: unset;
+    }
+
+    .article-heading {
+        display: inline-block;
+        width: 100%;
+        position: unset;
+        background: rgba(1, 37, 18, .8);
+        color: white;
+        padding: 5px 40px 15px 10px;
+        text-align: center;
+    }
+
+    .article-heading-p {
+        font-size: 13px;
+    }
 
     .article-content-div {
         padding: 12px 4% 12px;
@@ -442,12 +541,17 @@ article {
         font-size: 20px;
     }
 
-    h2 {
-        font-size: 16px;
+    small {
+        font-size: 10px;
     }
 
-    p {
-        font-size: 13px;
+    h2 {
+        font-size: 15px;
+    }
+
+    p,
+    li {
+        font-size: 12px;
     }
 
     .footer-container-bottom {
@@ -462,9 +566,13 @@ article {
     .location-map-div {
         display: none;
     }
+
+    .to-top-text {
+        font-size: 12px;
+    }
 }
 
-/* Styling for devices smaller than 400px wide */
+/* Styling for devices smaller than 500px wide */
 
 @media (max-width: 500px) {
     .logo-img {
@@ -484,10 +592,6 @@ article {
         font-size: 16px;
     }
 
-    p {
-        font-size: 12px;
-    }
-
     .footer {
         background-position: left;
     }
@@ -498,5 +602,62 @@ article {
 
     .location-add-div {
         width: 80%;
+    }
+}
+
+/* Styling for devices smaller than 400px wide */
+
+@media (max-width: 400px) {
+    .header {
+        height: 90px;
+    }
+
+    .logo-img {
+        width: 60px;
+        margin: 10px auto;
+    }
+
+    .header-logo-div {
+        max-width: 70%;
+    }
+
+    .nav>ul>li {
+        margin-right: 5px;
+    }
+
+    .nav>ul>li>a {
+        font-size: 12px;
+    }
+
+    .article-heading {
+        padding: 5px;
+    }
+
+    .article-heading-p {
+        margin-bottom: 0;
+    }
+
+    h1 {
+        font-size: 18px;
+    }
+
+    small {
+        display: none;
+    }
+
+    h2 {
+        font-size: 12px;
+    }
+
+    .footer {
+        background-position: left;
+    }
+
+    .footer-container-bottom {
+        text-align: left;
+    }
+
+    .location-add-div {
+        width: 100%;
     }
 }

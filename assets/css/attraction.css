@@ -2,7 +2,7 @@
 *
 Author: Henry Patrick Karugendo 
 Created: 14/07/23 
-Last Updated: 18/07/23 
+Last Updated: 19/07/23 
 *
 */
 
@@ -16,37 +16,69 @@ Last Updated: 18/07/23
     display: inline-block;
     width: 0;
     height: 0;
-    border-top: 23px solid transparent;
-    border-left: 46px solid white;
-    border-bottom: 23px solid transparent;
+    border-top: 20px solid transparent;
+    border-left: 40px solid #019a48;
+    border-bottom: 20px solid transparent;
+    position: sticky;
+    top: 0;
+    left: 0;
 }
 
 .section-heading-div {
-    background-color: #ff7903;
     color: white;
-    padding-bottom: 10px;
+    height: 400px;
+    display: flex;
+    background-size: cover;
+    background-position: center;
+}
+
+#guinness-heading-div {
+    background-image: url('../images/layout/guinness.jpg');
+}
+
+#paddy-heading-div {
+    background-image: url('../images/layout/paddys1.jpg');
+    background-position: bottom;
+}
+
+#temple-heading-div {
+    background-image: url('../images/layout/tbar.jpg');
+}
+
+#kells-heading-div {
+    background-image: url('../images/layout/book3.jpg');
+}
+
+#park-heading-div {
+    background-image: url('../images/layout/pkark.jpg');
 }
 
 .section-heading {
+    background-color: #019a48;
     display: inline;
-    margin-left: 10px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.section-sub-heading {
+    text-transform: uppercase;
+    background-color: #44df8c;
+    color: white;
+    padding-left: 10px;
 }
 
 .section-text-div {
     background-color: #f5fffa;
 }
 
-.section-text {
-    font-size: 24px;
-    margin: 16px;
-}
-
-.section-text > b {
+.section-text>b {
     font-weight: bold;
 }
 
 .trans-list {
-    margin-left: 20px;
+    margin-left: 40px;
 }
 
 .section-map {
@@ -55,11 +87,10 @@ Last Updated: 18/07/23
 }
 
 .section-admission-div {
-    background-color: #ffca9b;
+    background-color: #82f1b6;
 }
 
 .site-link {
-    font-size: 20px;
     text-decoration: none;
     color: white;
     text-transform: uppercase;
@@ -67,19 +98,48 @@ Last Updated: 18/07/23
 
 .tickets-link {
     display: block;
-    font-size: 20px;
     padding: 5px 10px;
     text-align: center;
-    background-color: #ff7903;
-    border: 1px solid #ff7903;
+    background-color: #019a48;
+    border: 1px solid #019a48;
     text-decoration: none;
     color: white;
 }
 
+@media (max-width: 1300px) {
+    .section-no-div {
+        border-top: 20px solid transparent;
+        border-left: 40px solid #019a48;
+        border-bottom: 20px solid transparent;
+    }
+}
+
+@media (max-width: 960px) {
+    .section-no-div {
+        border-top: 12px solid transparent;
+        border-left: 22px solid #019a48;
+        border-bottom: 12px solid transparent;
+    }
+
+    .section-heading-div {
+        height: 300px;
+    }
+}
+
 @media (max-width: 600px) {
+.section-no-div {
+        border-top: 8px solid transparent;
+        border-left: 16px solid #019a48;
+        border-bottom: 8px solid transparent;
+    }
+
     #attract-heading-div {
         background: none;
         height: 100px;
         position: unset;
+    }
+
+    .section-heading-div {
+        height: 200px;
     }
 }

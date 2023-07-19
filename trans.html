@@ -11,13 +11,6 @@
     <meta name="tags"
         content="Code Institute, HTML, CSS, College Project, Coding Project, Dublin City, Visit Dublin, What To Do In Dublin">
     <!-- End of Metas -->
-    <!-- Fonts -->
-    <!-- These fonts have been taken from the Google Fonts API -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Klee+One&family=Shadows+Into+Light&display=swap"
-        rel="stylesheet">
-    <!-- End of FOnts -->
     <!-- CSS Links -->
     <link rel="stylesheet" href="assets/css/main.css">
     <link rel="stylesheet" href="assets/css/transport.css">
@@ -28,7 +21,7 @@
     <!--
         Author: Henry Patrick Karugendo
         Created: 14/07/23
-        Last Updated: 18/07/23
+        Last Updated: 19/07/23
         *
         All images on this site were taken by Henry Patrick Karugendo - The Author of this website, 
         on a Sony a6000 within two days of walking around Dublin.
@@ -49,7 +42,7 @@
             </div>
         </div>
     </header>
-    <div class="nav-div">
+    <div class="nav-div" id="nav-div-t">
         <nav class="nav">
             <ul>
                 <li class="nav-link"><a href="intro.html">Introduction</a></li>
@@ -70,60 +63,72 @@
             </div>
         </div>
         <div class="article-content-div" id="trans-content-div">
-            <section class="section">
-                <div class="section-img">
-
+            <section class="article-section">
+                <div class="section-heading-div" id="leap-heading-div">
+                    <div class="section-heading-text-div">
+                        <div class="section-no-div"></div>
+                        <h1 class="section-heading" id="leap-heading">Leap Card<small><a
+                                    href="https://www.leapcard.ie/Home/index.html" class="site-link">Official
+                                    Site</a></small></h1>
+                    </div>
                 </div>
-                <div class="section-text">
-                    <h2 class="section-h2">Leap Card</h2>
-                    <p class="section-p">The Leap Card in an electronic pass that can be used on almost all public
+                <div class="section-text-div">
+                    <p class="section-text">The Leap Card in an electronic pass that can be used on almost all public
                         transportation which comes in three flavors; A
                         visitor’s unlimited pass which serves 1, 2, 3, or 7 days, A special card for citizens with a
                         photograph which is mailed
                         to your address for easy management and a general one which works the same way and both can be
                         topped up with credit as
                         you go.</p>
-                    <p class="section-p">Leap Cards also have special discounts as fares are always less than when
+                    <p class="section-text">Leap Cards also have special discounts as fares are always less than when
                         paying
                         with cash. Thus, it is advised to get
                         the Leap Card if you will be making use of public transportation.</p>
-                    <p class="section-p">Leap Cards can also be used on Dublin Bikes!</p>
+                    <p class="section-text">Leap Cards can also be used on Dublin Bikes!</p>
                 </div>
             </section>
-            <section class="section">
-                <div class="section-img">
-
+            <section class="article-section">
+                <div class="section-heading-div" id="luas-heading-div">
+                    <div class="section-heading-text-div">
+                        <div class="section-no-div"></div>
+                        <h1 class="section-heading" id="luas-heading">Luas<small><a href="https://www.luas.ie/"
+                                    class="site-link">Official
+                                    Site</a></small></h1>
+                    </div>
                 </div>
-                <div class="section-text">
-                    <h2 class="section-h2">Luas</h2>
-                    <p class="section-p">The Luas, not to be confused with the tram which runs on the normal railway,
+                <div class="section-text-div">
+                    <p class="section-text">The Luas, not to be confused with the tram which runs on the normal railway,
                         has
                         two lines; Red and Green, which run
                         perpendicular to one another and meet on O’Connell Street. The red line runs across Dublin while
                         the
                         green line goes
                         from south to north.</p>
-                    <p class="section-p">The Luas can get you to both Train Stations (Connolly and Heuston), to the
+                    <p class="section-text">The Luas can get you to both Train Stations (Connolly and Heuston), to the
                         Guinness
                         Store House, Pheonix Park, 3Arena,
                         Museum for Natural Arts and Kilmainham Gaol.</p>
-                    <p class="section-p">For payment, both cards and cash are accepted, and you can pay for the ticket
+                    <p class="section-text">For payment, both cards and cash are accepted, and you can pay for the ticket
                         or
                         journey at each stop. In addition,
                         there is a special pass called Leap Card.</p>
                 </div>
             </section>
-            <section class="section">
-                <div class="section-img">
-
+            <section class="article-section">
+                <div class="section-heading-div" id="dbus-heading-div">
+                    <div class="section-heading-text-div">
+                        <div class="section-no-div"></div>
+                        <h1 class="section-heading" id="dbus-heading">Dublin Bus<small><a href="https://www.dublinbus.ie/home"
+                                    class="site-link">Official
+                                    Site</a></small></h1>
+                    </div>
                 </div>
-                <div class="section-text">
-                    <h2 class="section-h2">Dublin Bus</h2>
-                    <p class="section-p">Almost all Dublin Buses traverse through the City Center (through or close to
+                <div class="section-text-div">
+                    <p class="section-text">Almost all Dublin Buses traverse through the City Center (through or close to
                         O’Connell Street). They are identified by
                         their standout colors of yellow, blue and green. The labels are the destination and the route
                         number.</p>
-                    <p class="section-p">Dublin Buses accept Leap Cards, printed bus passes – which can be purchased
+                    <p class="section-text">Dublin Buses accept Leap Cards, printed bus passes – which can be purchased
                         from
                         News Agent shops, Luas stops or Dublin
                         Buss office on O’Connell Street, and cash payments. For cash payments, only coins are
@@ -131,7 +136,7 @@
                         is advisable to use
                         exact change unless you are willing to travel to the main Dublin Buss office to get your change
                         back.</p>
-                    <p class="section-p">Dublin Buses normally run between 06:30 up 23:30. There are special buses (C,
+                    <p class="section-text">Dublin Buses normally run between 06:30 up 23:30. There are special buses (C,
                         H)
                         which run past these times but only on
                         weekdays, excluding bank holidays. After midnight, the C (C1, C2, C3, etc) and H (H1, H2, etc)
@@ -139,70 +144,81 @@
                         every hour.</p>
                 </div>
             </section>
-            <section class="section">
-                <div class="section-img">
-
+            <section class="article-section">
+                <div class="section-heading-div" id="dbike-heading-div">
+                    <div class="section-heading-text-div">
+                        <div class="section-no-div"></div>
+                        <h1 class="section-heading" id="dbike-heading">Dublin Bikes<small><a href="https://www.dublinbikes.ie/en/home"
+                                    class="site-link">Official
+                                    Site</a></small></h1>
+                    </div>
                 </div>
-                <div class="section-text">
-                    <h2 class="section-h2">Dublin Bikes</h2>
-                    <p class="section-p">The Dublin Bikes are mostly locked in the City, meaning you will not find bike
+                <div class="section-text-div">
+                    <p class="section-text">The Dublin Bikes are mostly locked in the City, meaning you will not find bike
                         stops far from the City Center. The
                         Dublin Bikes are available for use between 06:00 and 00:30. An account is required to use the
                         Dublin
                         Bikes as a yearly
                         or a single subscription is needed to make use of the service.</p>
-                    <p class="section-p">The charge is €35 for a year or €5 for a day’s use. When on a subscription, the
+                    <p class="section-text">The charge is €35 for a year or €5 for a day’s use. When on a subscription, the
                         journey is free when less than 30
                         minutes, thereafter which there will be a charge of €0.50 cents every other half hour. This
                         means
                         that you can use the
                         bike overnight but be prepared to pay for that time.</p>
-                    <p class="section-p">You can find a lot of stations in the City Center with two on O’Connell Street
+                    <p class="section-text">You can find a lot of stations in the City Center with two on O’Connell Street
                         (General Post Office and Living Room Pub)
                         alone.</p>
                 </div>
             </section>
-            <section class="section">
-                <div class="section-img">
-
+            <section class="article-section">
+                <div class="section-heading-div" id="dart-heading-div">
+                    <div class="section-heading-text-div">
+                        <div class="section-no-div"></div>
+                        <h1 class="section-heading" id="dart-heading">Train and Dart<small><a href="https://www.irishrail.ie/en-ie/"
+                                    class="site-link">Official
+                                    Site</a></small></h1>
+                    </div>
                 </div>
-                <div class="section-text">
-                    <h2 class="section-h2">Train & Dart</h2>
-                    <p class="section-p">Wish to go to Howth – the prestigious fishing village - the best place to have
+                <div class="section-text-div">
+                    <p class="section-text">Wish to go to Howth – the prestigious fishing village - the best place to have
                         fresh sea food? Or perhaps you wish to
                         spend the precious sunny times at the beach in Dan Laoghaire and Swords? The Dart is the best
                         option! It takes less than
                         30 minutes to get to Howth and even less to get to the beach.</p>
-                    <p class="section-p">Connolly station serves the East coast and thus the beach. Great news is that
+                    <p class="section-text">Connolly station serves the East coast and thus the beach. Great news is that
                         Connolly is not far from the Spire, under
                         ten minutes' walk in fact. The other station, Heuston, serves the west coast, in the case that
                         you
                         wish to visit outside
                         Dublin, like the Cliffs of Moher or Giant’s Causeway in the North.</p>
-                    <p class="section-p">Tickets are easy to get, either online from the Irish Rail website or at the
+                    <p class="section-text">Tickets are easy to get, either online from the Irish Rail website or at the
                         stations themselves. In addition, the Leap
                         card is also valid on the trains and darts.</p>
                 </div>
             </section>
-            <section class="section">
-                <div class="section-img">
-
+            <section class="article-section">
+                <div class="section-heading-div" id="other-heading-div">
+                    <div class="section-heading-text-div">
+                        <div class="section-no-div"></div>
+                        <h1 class="section-heading" id="other-heading">Other Options<small><a href="#"
+                                    class="site-link disabled">Walking, Taxi etc...</a></small></h1>
+                    </div>
                 </div>
-                <div class="section-text">
-                    <h2 class="section-h2">Walking and Others</h2>
-                    <p class="section-p">Why not put in those steps when you can! Optimum walking distance for Dublin
+                <div class="section-text-div">
+                <div class="section-text-div">
+                    <p class="section-text">Why not put in those steps when you can! Optimum walking distance for Dublin
                         city
                         from Seaside to end of Pheonix Park is at average two hours.</p>
-                    <p class="section-p">That is the extreme estimate. The attractions are mostly in the center which is
-                        very manageable. It is also not recommended to drive around the city due to the one-way road
-                        rules
-                        in place and not to mention traffic!</p>
-                    <p class="section-p">If you must travel via transoprtation, Uber is available in addition to horse
-                        rides.</p>
+                    <p class="section-text">Free Now (the local Uber) and Uber are available as Taxi options.</p>
+                    <p class="section-text">Hop-On/Hop-Off buses can also be used ot get around the city.</p>
                 </div>
             </section>
         </div>
     </article>
+    <div class="to-top-div">
+        <a href="#nav-div-t" class="to-top-text">Back To Top <i class="fa-solid fa-arrow-up-from-bracket"></i></a>
+    </div>
     <footer class="footer">
         <div class="footer-container-top">
             <div class="footer-location location-add-div">
@@ -224,6 +240,8 @@
             </div>
         </div>
     </footer>
+    <!-- Making use of Font Awesome for icons -->
+    <script src="https://kit.fontawesome.com/c42e12426f.js" crossorigin="anonymous"></script>
 </body>
 
 </html>

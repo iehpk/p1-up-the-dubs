@@ -2,7 +2,7 @@
 * 
 Author: Henry Patrick Karugendo 
 Created: 14/07/23 
-Last Updated: 18/07/23 
+Last Updated: 19/07/23 
 *
 */
 #contact-heading-div {
@@ -78,6 +78,17 @@ input[type=submit] {
         margin: 0 auto;
     }
 
+        .form-element {
+            font-size: 12px;
+        }
+    
+        input[type=text],
+        input[type=email],
+        textarea {
+            font-size: 12px;
+            padding: 3px;
+        }
+
     input[type=submit] {
         max-width: 50%;
     }
@@ -97,14 +108,7 @@ input[type=submit] {
     }
 
     .form-element {
-        font-size: 14px;
-    }
-
-    input[type=text],
-    input[type=email],
-    textarea {
         font-size: 12px;
-        padding: 3px;
     }
 
     input[type=submit] {
