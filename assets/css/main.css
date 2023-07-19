@@ -157,6 +157,13 @@ p {
     cursor: default;
 }
 
+#footnote {
+    text-align: center;
+    font-size: 10px;
+    font-style: italic;
+    font-weight: bold;
+}
+
 .article-heading-p {
     font-size: 30px;
     margin: 0;

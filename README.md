@@ -1,4 +1,5 @@
 <a href="https://ibb.co/ZcBLRyG"><img src="https://i.ibb.co/vL3wC2V/Screenshot-2023-07-19-190354.png" alt="Screenshot-2023-07-19-190354" border="0" style="width: 70%; height: auto;"></a>
+
 <h1 class="display-3">UP THE DUBS</h1>
 <p class="display-5">Your Friendly Guide to the Dublin City</p>
 <p>You can preview the project live on this -> <a href="https://iehpk.github.io/p1-up-the-dubs/" class="link-text">LINK</a></p>
@@ -75,7 +76,7 @@
 <h3>Introduction Page</h3>
 <a href="https://ibb.co/KWWG8wn"><img src="https://i.ibb.co/dDDcHgZ/s-welcome-lg.jpg" alt="s-welcome-lg" border="0" style="width: 30%; height: auto;"></a>
 <a href="https://imgbb.com/"><img src="https://i.ibb.co/k1wDFQ9/s-welcome-md.jpg" alt="s-welcome-md" border="0" style="width: 30%; height: auto;"></a>
-<a href="https://imgbb.com/"><img src="https://i.ibb.co/60S8YdS/s-welcome-sm.jpg" alt="s-welcome-sm" border="0" style="width: 30%; height: auto;"></a>
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/Rg5fXpN/s-intro-sm-2.jpg" alt="s-intro-sm-2" border="0" style="width: 30%; height: auto;"></a>
 <p>The Introduction Page was the easiest as it contains little content.</p>
 <p>It has a PICTURE element with different sources to cater to different resolutions.</p>
 <p>The paragraphs wrap around the image.</p>
